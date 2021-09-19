@@ -1,0 +1,13 @@
+Mutable and Immutable in python :
+
+Mutable Objects :
+    Lists
+    Sets
+    Dictionaries
+
+Immutable Objects:
+    Numbers (Integer, Rational, Float, Decimal, Complex & Booleans)
+    Strings
+    Tuples
+    Frozen Sets
+    

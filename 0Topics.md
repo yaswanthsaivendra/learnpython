@@ -1,8 +1,4 @@
-# learnpython
-A short and sweet reference to quickly learn all the basic topics of python.
-
-## Topics
-### Basic skills
+# Basic skills
 1. Variables
 2. Data types
 3. Operators
@@ -14,7 +10,7 @@ A short and sweet reference to quickly learn all the basic topics of python.
 9. Modules
 10. Mutable vs Immutable
 
-### Intermediate skills
+# Intermediate skills
 1. Exception Handling
 2. Classes, Objects
 3. Inheritance
@@ -31,7 +27,7 @@ A short and sweet reference to quickly learn all the basic topics of python.
 14. Environments
 15. Async IO
 
-### Advanced skills
+# Advanced skills
 1. Multi processing, Multi threading
 2. Concurrency
 3. Multiprocessing lock & pool
@@ -42,10 +38,11 @@ A short and sweet reference to quickly learn all the basic topics of python.
 8. Metaclasses
 
 
-### DSA in python
-### Debugging skills
-### Using libraries wisely
-### PEP8 & Coding Best Practices
+## DSA in python
+## Debugging skills
+## Using libraries wisely
+## PEP8 & Coding Best Practices
 
-NOTE : Topics will be added as I progress.
+
+
 
