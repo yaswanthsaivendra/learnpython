@@ -45,7 +45,7 @@ def fun(divide_by):
 	try:
 		return 40/divide_by
 	except ZeroDivisionError as error:	#we handled the exception with the exact exceptional case.
-		return error	#ZeroDivsionError is built-in exception, we can raise custom exceptions too.
+		return error	
 
 
 print(fun(5))
