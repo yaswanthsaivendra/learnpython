@@ -12,14 +12,6 @@ print(myint)
 myfloat = 7.0
 print(myfloat)
 
-#we can convert an int to float and vice versa.
-myint =7
-myfloat= float(myint)
-print(myfloat)
-
-myfloat =7
-myint= int(myfloat)
-print(myint)
 
 #strings
 # we can define either with a single quote or double quotes.
@@ -27,6 +19,12 @@ print(myint)
 mystring = 'hello'
 print(mystring)
 mystring = "hello"
+print(mystring)
+mystring="""
+hello 
+this 
+is multiline string!
+"""
 print(mystring)
 
 #when to use single quotes and when to use double quotes.
@@ -49,3 +47,20 @@ print(0x10)
 False
 True
 """
+
+# Type conversion
+#1 . Implicit type conversion
+int_num=4
+float_num=4.2
+
+total=int_num+float_num #before adding, python converts int_num to float data type.
+
+#2. Explicit type conversion.
+# For Explicit type conversion, we use built-in functions like int(), float() and str() to convert one data-type to other.
+int_num=4
+float_num=float(int_num) 
+print(type(float_num))  #type() fucntion returns the class of the object.
+
+# During Type conversion,
+# we may get errors, if that particular conversion is not possible.
+# we may loss data during conversion.
