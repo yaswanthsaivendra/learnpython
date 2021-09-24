@@ -49,3 +49,8 @@ A short and sweet reference to quickly learn all the basic topics of python.
 
 NOTE : Topics will be added as I progress.
 
+## Resources
+1. [learnpython](https://www.learnpython.org/)
+2. [realpython](https://realpython.com/)
+3. [Python-programming in Programiz](https://www.programiz.com/python-programming)
+

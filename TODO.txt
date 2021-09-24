@@ -8,11 +8,16 @@ time
 subprocess
 datetime
 socket
+urllib2
+argparse
+pathlib
+
 
 frameworks:
 flask
 Django
 
-Topics:
-recursion
+concepts:
+working with csv and json data
+
 
