@@ -42,6 +42,3 @@ print(b)
 
 
 
-# set(it differs from dictionary as dict contains key-values)
-lang = {"c", "python", "java", "python"}
-print(lang)  # return elements uniquely
