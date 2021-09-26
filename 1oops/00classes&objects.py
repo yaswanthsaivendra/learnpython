@@ -21,6 +21,9 @@ class Dog:
 obj=Dog("jimmy",10) #instance attributes defined inside the __init__ should be passed as arguments when creating the object.
 #When an instance method is self argument is replaced with object.(__init__ method is automatically called when creating the object).
 
+#We call this .__init__ method as constructor. 
+#Constructor is a special type of method which is used to intialize instance members  of class.
+# We use built-in constructors like list(), dict(), set(), tuple() to create the lists, dictionaries, sets and tuples respectively. 
 
 class Dog:
     species = "bulldog" 
