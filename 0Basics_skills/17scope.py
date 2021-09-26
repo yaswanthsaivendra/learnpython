@@ -36,3 +36,21 @@ fun()
 print(eggs)
 
 # Avoid using global, wherever possible.
+
+
+# Nonlocal Variables
+# Nonlocal variables are used in nested functions. These variables can be neither in the local nor the global scope.
+# They act as , they are in the local scope of outer function.
+
+def outer():
+	x= "local"
+
+	def inner():
+		nonlocal x;
+		x="nonlocal"	#here this, nonlocal variable acts as the local variable of outer function.
+		print("inner:", x)
+
+	inner()
+	print("outer: ",x)
+
+outer()
