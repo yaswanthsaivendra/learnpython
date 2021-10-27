@@ -2,7 +2,7 @@
 #objects are instances of classes.
 #classes are essentially a template to create your objects.
 
-class DogClass :    #naming convention for class name - first letter of everyword should be captilazed.
+class DogClass :    #naming convention for class name - first letter of every word should be captilazed.
     pass
 
 class Dog:
@@ -12,7 +12,7 @@ class Dog:
         self.age = age
     #An instance attribute is unique for every instance(i.e., object) whereas we also have class attribures which are same for every object we created with this class.
     #usually class attributes are created at the start of the class.
-    
+
     # We have three types of methods in python, one of them is Instance methods which we are using right now.
     #All instance methods have one default parameter - self, which points to the instance of the class.
     # Any method we create inside the class is an instance method unless we explicitly specify them as other type of methods.
@@ -21,16 +21,16 @@ class Dog:
 obj=Dog("jimmy",10) #instance attributes defined inside the __init__ should be passed as arguments when creating the object.
 #When an instance method is self argument is replaced with object.(__init__ method is automatically called when creating the object).
 
-#We call this .__init__ method as constructor. 
+#We call this .__init__ method as constructor.
 #Constructor is a special type of method which is used to intialize instance members  of class.
-# We use built-in constructors like list(), dict(), set(), tuple() to create the lists, dictionaries, sets and tuples respectively. 
+# We use built-in constructors like list(), dict(), set(), tuple() to create the lists, dictionaries, sets and tuples respectively.
 
 class Dog:
-    species = "bulldog" 
-    def __init__(self, name, age):  
-        self.name = name            
+    species = "bulldog"
+    def __init__(self, name, age):
+        self.name = name
         self.age = age
-    
+
     #instance method
     def speak(self, sound):
         return f"{self.name} says {sound}"
@@ -41,15 +41,15 @@ print(obj.speak("bow bow"))
 #we can change what gets printed by defining a speical instance method called __str__().
 
 class Dog:
-    species = "bulldog" 
-    def __init__(self, name, age):  
-        self.name = name            
+    species = "bulldog"
+    def __init__(self, name, age):
+        self.name = name
         self.age = age
-    
+
     #instance method
     def speak(self, sound):
         return f"{self.name} says {sound}"
-    
+
     def __str__(self):
         return f"{self.name} is {self.age} years old"
 

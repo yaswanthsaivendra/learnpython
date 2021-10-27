@@ -103,8 +103,24 @@ user("yash","vendra",address="12-52",street="vendra vari street")
 
 
 
+# Docstring
+# Docstrings are multi-line comments which acts as a short descriptions for functions, classes, methods and modules.
+# They should be placed at the start of the code block.
 
+def doc_str_fun():
+	"""this is a docstring
+		this function helps us to understand docstring.
+	"""
+	print("docstring function")
+#In most of the IDEs, one can hover over the function to see the docstring, so that they can quickly get an idea on how the function works.
+doc_str_fun()
+#one can use .__doc__ method to view the docstring.
+print(doc_str_fun.__doc__)
 
+#We can even use this __doc__ dunder method to view the docstrings of built-in fucntions.
+import math
+print(math.__doc__)
+print(math.sqrt.__doc__)
 		
 		
 
