@@ -1,13 +1,13 @@
 class Dog:              #parent class
-    species = "bulldog" 
-    def __init__(self, name, age):  
-        self.name = name            
+    species = "bulldog"
+    def __init__(self, name, age):
+        self.name = name
         self.age = age
-    
+
     #instance method
     def speak(self, sound):
         return f"{self.name} says {sound}"
-    
+
     def __str__(self):
         return f"{self.name} is {self.age} years old"
 
@@ -29,7 +29,7 @@ print(jimmy.speak("woof"))
 #we can check an instance belongs to which class using isinstance().
 print(isinstance(jimmy,Dog))    #isinstance(obj,class)
 #instances of child classes are considered as instances of parent class also.
- 
+
 
 class DogName3(Dog):
     def speak(self, sound="Arf"):   #we just overrided the speak method of parent class by defining the method with the same name.
