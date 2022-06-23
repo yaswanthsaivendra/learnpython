@@ -1,4 +1,4 @@
-#classes are used to create user-defined data structures, they consists of data-variables and fucntions(called methods). 
+#classes are used to create user-defined data structures, they consists of data-variables and functions(called methods). 
 #objects are instances of classes.
 #classes are essentially a template to create your objects.
 

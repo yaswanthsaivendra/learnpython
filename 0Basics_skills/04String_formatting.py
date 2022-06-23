@@ -34,7 +34,7 @@ print("hello i'm {name} and i'm {age}".format(name=name,age=age))
 
 ## 3. f-strings(python 3.6+)
 print(f'hello i am {name}')
-#in f-strings, we can embed arbitary pthon expressions and can even do inline arithmetic.
+#in f-strings, we can embed arbitary python expressions and can even do inline arithmetic.
 a = 5
 b = 10
 print(f"the sum is {a+b}")

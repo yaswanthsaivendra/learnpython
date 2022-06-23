@@ -10,7 +10,7 @@ larger = lambda a,b: a if a>b else b
 print(larger(10,47))
 
 
-#lambda functions are mostly used with along with built-in fucntions of python. one of the use case:
+#lambda functions are mostly used along with built-in fucntions of python. one of the use case:
 names=["sai","raja","bob","alice","anu","james"]
 #names will be sorted based on the length.
 #sort method takes two optional paramters.
